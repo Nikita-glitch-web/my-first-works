@@ -1,0 +1,333 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: white;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-around;
+
+}
+.header-text {
+    color: #ffaa47;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+}
+.nav__link {
+    color: #2a2a2a;
+    font-size: 14px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.nav__link:last-child {
+    padding-right: 0fr;
+}
+.page__nav {
+    margin-top: 33px;
+}
+.cources-time-box {
+    background: #ffaa47;
+    width: 100%;
+    height: 504px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.cources-time-title {
+    font-size: 62px;
+    color: #2a2a2a;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 0px;
+}
+
+.cources-time-subtitle {
+    font-size: 52px;
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 0;
+}
+
+.cources-time-text-wrapper {
+    text-align: center;
+}
+
+.weeks-number {
+    font-size: 76px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 0;
+    font-weight: 1000;
+}
+
+.weeks-text {
+    font-size: 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 0;
+    font-weight: 1000;
+}
+
+.hours-number {
+    font-size: 76px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 0;
+    font-weight: 1000;
+}
+
+.hours-text {
+    font-size: 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 0;
+    font-weight: 1000;
+}
+
+.cources-time {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.projects-number {
+    font-size: 76px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 0;
+    font-weight: 1000;
+}
+
+.projects-text {
+    font-size: 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 0;
+    font-weight: 1000;
+}
+
+.weeks {
+    padding-right: 50px;
+
+}
+
+.hours {
+    padding-right: 50px;
+}
+
+.subtext {
+    font-size: 22px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 0;
+    text-align: center;
+}
+
+.register-in-course-title-text {
+    font-size: 40px;
+    color: #555;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.register-in-course-wrapper {
+    background: white;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+
+#head {
+height: 100px;
+position: fixed;
+background: #fff;
+z-index: 1000;
+width: 100%;
+}
+
+#cources-time {
+    padding-top: 60px;
+}
+
+.input-name {
+        box-sizing: border-box!important;
+        border-style: solid;
+        margin: 0;
+        max-width: 100%;
+        text-overflow: ellipsis;
+        width: 253px;
+        height: 50px;
+        border-radius: 80px;
+        border-color: #ffaa47;
+        padding: 20px;
+        margin-right: 10px;
+}
+
+.input-name:hover {
+    border-color: #ffaa47;
+    background: #ffaa47;
+}
+
+
+.green-button {
+    width: 200px;
+    height: 52px;
+    background: #24f2b4;
+    border-color: #24f2b4;
+    border-radius: 80px;
+    border-style: solid;
+}
+
+.button-text {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 1000;
+    text-align: center;
+    padding-bottom: 30px;
+    text-overflow: ellipsis;
+}
+
+.box-with-price {
+    height: 360px;
+    width: 100%;
+    background: #ffaa47;
+}
+
+.price {
+    color: white;
+    font-size: 68px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 70px;
+ 
+}
+
+.price-text {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 0;
+}
+
+.sub-price-text {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.training-cycle-title {
+    font-size: 52px;
+    color: #ffaa47;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.text-with-dot-box {
+    display: flex;
+    margin-left: 430px;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+.training-cycle-main-text {
+    font-size: 22px;
+    font-family: 'Montserrat', "open-sans", sans-serif;
+    font-weight: 1000;
+    line-height: 0px;    
+}
+
+.cource-program-title {
+    font-size: 52px;
+    color: #ffaa47;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.week {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 1000;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+
+.training-cycle-main-text-six-part {
+line-height: 23px;
+}
+.week-six {
+    line-height: 50px;
+}
+
+.dot-six {
+    margin-top: 30px;
+}
+
+.technology-what-you-learn-text {
+    font-size: 52px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffaa47;
+    font-weight: 600;
+}
+
+.technology-what-you-learn {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.technology-what-you-learn-text-wrapper {
+    padding-bottom: 50px;
+}
+
+.register-in-course-wrapper-second-part {
+    padding-top: 200px;
+
+}
+
+
+.black-line {
+    background: black;
+    height: 8px;
+    width: 100%;
+}
+
+
+
+
+.author-info {
+    font-size: 17px;
+    color: #2a2a2a;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    text-align: center;
+    padding-top: 35px;
+}
+.footer-box {
+    background: #ffaa47;
+    height: 200px;
+    width: 100%;
+    border-top: #2a2a2a 8px solid;
+    display: flex;
+    justify-content: space-evenly;
+}
