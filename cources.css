@@ -1,0 +1,125 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: white;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-around;
+
+}
+.header-text {
+    color: #ffaa47;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+}
+.nav__link {
+    color: #2a2a2a;
+    font-size: 14px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.nav__link:last-child {
+    padding-right: 0fr;
+}
+.page__nav {
+    margin-top: 33px;
+}
+
+
+#head {
+    height: 100px;
+    position: fixed;
+    background: #fff;
+    z-index: 1000;
+    width: 100%;
+    }
+    
+    #cources-wrapper {
+        padding-top: 60px;
+    }
+
+.cources-title {
+    font-size: 56px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+.yellow-box {
+    width: 283px;
+    height: 281px;
+    background: #ffaa47;
+}
+.text-in-yellow-box {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 46px;
+}
+
+.right-part-text {
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+}
+
+.right-part-subtext {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.link {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffaa47; 
+}
+
+.cources-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+}
+
+.title-of-main-part {
+    padding-top: 60px;
+}
+
+.right-part-subtext {
+    padding-bottom: 58px;
+}
+
+.right-part-text-box {
+    padding-left: 20px;
+}
+
+
+.author-info {
+    font-size: 17px;
+    color: #2a2a2a;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    text-align: center;
+    padding-top: 35px;
+}
+.footer-box {
+    background: #ffaa47;
+    height: 200px;
+    width: 100%;
+    border-top: #2a2a2a 8px solid;
+    position: absolute;
+    top: 100%;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
